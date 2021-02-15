@@ -1,0 +1,156 @@
+[
+  {
+    "pk": 1,
+    "model": "products.product",
+    "fields": {
+      "name": "Savage Stout - 500ml cans x 24",
+      "description": "Savage Stout has a robust roast flavour complemented by a full-bodied and smooth mouth feel.The generous addition of Fuggle hops lends a tart bitterness to the dry espresso-like finish.This sessionable stout beer is filled with rich complex coffee aromas mingled with light liquorice notes. The combination of traditional stout hops with an extra pinch of roast barley  allows us to stay true to Irish tradition, recreating a taste so often yearned for by stout drinkers. Savage indeed.",
+      "price": 64.99,
+      "image_url": "https://www.wychwood.co.uk/wp-content/uploads/2020/05/rugby-can-front-204x204.jpg",
+      "image": "savage_can.jpg"
+    }
+  },
+  {
+    "pk": 2,
+    "model": "products.product",
+    "fields": {
+      "name": "Savage Stout - 500ml bottles x 8",
+      "description": "Savage Stout has a robust roast flavour complemented by a full-bodied and smooth mouth feel.The generous addition of Fuggle hops lends a tart bitterness to the dry espresso-like finish.This sessionable stout beer is filled with rich complex coffee aromas mingled with light liquorice notes. The combination of traditional stout hops with an extra pinch of roast barley  allows us to stay true to Irish tradition, recreating a taste so often yearned for by stout drinkers. Savage indeed.",
+      "price": 30.99,
+      "image_url": "https://www.wychwood.co.uk/wp-content/uploads/2020/05/rugby-can-front-204x204.jpg",
+      "image": "savage_bottle.jpg"
+    }
+  },
+  {
+    "pk": 3,
+    "model": "products.product",
+    "fields": {
+      "name": "Witches Brew Ruby beer - 500ml cans x 24",
+      "description": "The Witches Brew - Ruby Red ale is brewed with smooth and rich Chocolate and Crystal malts & a blend of Fuggles and Styrian Golding hops. The result is a delicious full-bodied toffee flavour and a fruity finish of figs, raisins and dates.",
+      "price": 66.99,
+      "image_url": "https://www.wychwood.co.uk/wp-content/uploads/2020/05/rugby-can-front-204x204.jpg",
+      "image": "ruby_can.jpg"
+    }
+  },
+  {
+    "pk": 4,
+    "model": "products.product",
+    "fields": {
+      "name": "Witches Brew Ruby beer - 500ml bottles x 8",
+      "description": "The Witches Brew - Ruby Red ale is brewed with smooth and rich Chocolate and Crystal malts & a blend of Fuggles and Styrian Golding hops. The result is a delicious full-bodied toffee flavour and a fruity finish of figs, raisins and dates.",
+      "price": 36.99,
+      "image_url": "https://www.wychwood.co.uk/wp-content/uploads/2020/05/rugby-can-front-204x204.jpg",
+      "image": "ruby_bottle.jpg"
+    }
+  },
+  {
+    "pk": 5,
+    "model": "products.product",
+    "fields": {
+      "name": "God's Gift Weisse - 33cl bottles x 24",
+      "description": "God’s gift is a refreshing German style wheat beer that is brewed in accordance with the Bavarian wheat ale traditions. Classic aromas and flavours include banana, clove, orange zest and perhaps even a subtle floral note are obvious right from the start. A cleansing carbonation gives a liveliness and creaminess to this light-bodied wheat ale.",
+      "price": 36.99,
+      "image_url": "https://www.wychwood.co.uk/wp-content/uploads/2020/05/rugby-can-front-204x204.jpg",
+      "image": "GG_Bottle.jpg"
+    }
+  },
+  {
+    "pk": 6,
+    "model": "products.product",
+    "fields": {
+      "name": "God's Gift Weisse - 75cl bottles x 4",
+      "description": "God’s gift is a refreshing German style wheat beer that is brewed in accordance with the Bavarian wheat ale traditions. Classic aromas and flavours include banana, clove, orange zest and perhaps even a subtle floral note are obvious right from the start. A cleansing carbonation gives a liveliness and creaminess to this light-bodied wheat ale.",
+      "price": 87.99,
+      "image_url": "https://www.wychwood.co.uk/wp-content/uploads/2020/05/rugby-can-front-204x204.jpg",
+      "image": "Gods_Gift_Label.jpg"
+    }
+  },
+  {
+    "pk": 7,
+    "model": "products.product",
+    "fields": {
+      "name": "God's Gift Weisse - 20l keg",
+      "description": "God’s gift is a refreshing German style wheat beer that is brewed in accordance with the Bavarian wheat ale traditions. Classic aromas and flavours include banana, clove, orange zest and perhaps even a subtle floral note are obvious right from the start. A cleansing carbonation gives a liveliness and creaminess to this light-bodied wheat ale.",
+      "price": 94.99,
+      "image_url": "https://www.wychwood.co.uk/wp-content/uploads/2020/05/rugby-can-front-204x204.jpg",
+      "image": "Gods_Gift_Label.jpg"
+    }
+  },
+  {
+    "pk": 8,
+    "model": "products.product",
+    "fields": {
+      "name": "Valiant Quest IPA - 500ml cans x 24",
+      "description": "Our Valiant Quest IPA is high hopped to deliver intense bitterness that lingers on the palate. With a high hop bitterness, flavor and aroma. A blend of the finest Pale and Caramel malts gives a complex malt character while keeping the hops in the forefront.",
+      "price": 58.99,
+      "image_url": "https://www.wychwood.co.uk/wp-content/uploads/2020/05/rugby-can-front-204x204.jpg",
+      "image": "ipa_can.jpg"
+    }
+  },
+  {
+    "pk": 9,
+    "model": "products.product",
+    "fields": {
+      "name": "Valiant Quest IPA - 500ml bottles x 8",
+      "description": "Our Valiant Quest IPA is high hopped to deliver intense bitterness that lingers on the palate. With a high hop bitterness, flavor and aroma. A blend of the finest Pale and Caramel malts gives a complex malt character while keeping the hops in the forefront.",
+      "price": 34.99,
+      "image_url": "https://www.wychwood.co.uk/wp-content/uploads/2020/05/rugby-can-front-204x204.jpg",
+      "image": "ipa_bottle.jpg"
+    }
+  },
+  {
+    "pk": 10,
+    "model": "products.product",
+    "fields": {
+      "name": "Savage Stout - Treasure Box - 500ml bottles x 4",
+      "description": "This box of Treasure is indeed savage! This box contains 4 x 500ml bottles.",
+      "price": 15.99,
+      "image_url": "https://www.wychwood.co.uk/wp-content/uploads/2020/05/rugby-can-front-204x204.jpg",
+      "image": "savage_bottle.jpg"
+    }
+  },
+  {
+    "pk": 11,
+    "model": "products.product",
+    "fields": {
+      "name": "Valiant Quest IPA - Treasure Box - 500ml bottles x 4",
+      "description": "You need to be brave and bold! This box contains 4 x 500ml bottles of our wonderful (and refreshing!) IPA.",
+      "price": 15.99,
+      "image_url": "https://www.wychwood.co.uk/wp-content/uploads/2020/05/rugby-can-front-204x204.jpg",
+      "image": "ipa_Bottle.jpg"
+    }
+  },
+  {
+    "pk": 12,
+    "model": "products.product",
+    "fields": {
+      "name": "God's Gift Weisse  - Treasure Box - 33cl bottles x 4",
+      "description": "This is indeed 'God's gift'! This box contains 4 x 33cl bottles of our award winning Weisse.",
+      "price": 18.99,
+      "image_url": "https://www.wychwood.co.uk/wp-content/uploads/2020/05/rugby-can-front-204x204.jpg",
+      "image": "GG_Bottle.jpg"
+    }
+  },
+  {
+    "pk": 12,
+    "model": "products.product",
+    "fields": {
+      "name": "Witches Brew Ruby beer  - Treasure Box - 33cl bottles x 4",
+      "description": "The Witches will scream with delight! This box contains 4 x 33cl bottles of our award winning Ruby beer!",
+      "price": 18.99,
+      "image_url": "https://www.wychwood.co.uk/wp-content/uploads/2020/05/rugby-can-front-204x204.jpg",
+      "image": "ruby_bottle.jpg.jpg"
+    }
+  },
+  {
+    "pk": 13,
+    "model": "products.product",
+    "fields": {
+      "name": "The Wizards' Hat  - Treasure Box - 500ml cans x 24",
+      "description": "Variety is the spice of life! The ‘Wizard’s hat’ box contains a random selection of each of the Dark Castle range of beers! Guaranteed to contain at minimum two of each beer including; Savage Stout, God's Gift Weisse, Valiant Quest IPA and Witches Brew Ruby beer.",
+      "price": 62.99,
+      "image_url": "https://www.wychwood.co.uk/wp-content/uploads/2020/05/rugby-can-front-204x204.jpg",
+      "image": "Cans_multi.jpg"
+    }
+  }
+]
