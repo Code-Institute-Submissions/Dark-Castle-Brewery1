@@ -46,6 +46,14 @@ body {
     color: white;
 }
 
+/* Edit or replace this */ 
+.btn-outline-black{
+    background: white;
+    color: black !important; /* use important to override link colors for <a> elements. */
+    border: 1 px solid black;
+}
+
+
 /*
 .shop-now-button:hover,
 .shop-now-button:active,
