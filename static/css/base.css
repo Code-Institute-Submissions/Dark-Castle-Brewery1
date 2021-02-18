@@ -76,6 +76,23 @@ body {
 
 }
 
+/* Move and tidy up! */
+.message-container {
+    position: fixed;
+    top: 72px;
+    right: 15px;
+    z-index: 9999999999;
+}
+
+.custom-toast{
+    overflow: available;
+}
+
+.toast-capper {
+    height: 2px;
+}
+
+
 
 .btt-link,
 .update-link,
