@@ -175,3 +175,5 @@ STRIPE_WH_SECRET = os.getenv('STRIPE_WH_SECRET', '')
 
 
 MESSAGE_STORAGE = 'django.contrib.messages.storage.session.SessionStorage'
+
+DEFAULT_FROM_EMAIL = 'darkcastlebrewery@example.com'
