@@ -1,1 +1,1 @@
-web: gunicorn darkcastlebrewery.wsgi:application
+web: gunicorn dark_castle.wsgi:application
