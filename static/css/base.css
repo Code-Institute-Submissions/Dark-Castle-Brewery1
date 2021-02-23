@@ -2,7 +2,19 @@
 
 html {  
     height:100%; /* this will allow our h100 classes in vertical centering to  work. */ 
+    --top-spacing: 160px;
+    scroll-padding-top: var(--top-spacing);
+
+  
+  
+  margin: var(--top-spacing) auto;
+  
+  
+  padding: 0 20px;
+  
 }  
+
+
 
 body {  
     background-color:#2D4059;    
@@ -10,6 +22,32 @@ body {
     color: #555;  
     font-family: Cinzel, Arial, Helvetica, sans-serif;  
 } 
+
+#footer-styling {
+    background-color: #FFB400;
+    margin-top: 5%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    
+}
+
+.card-styling{
+    box-shadow:
+    0 2.8px 2.2px rgba(0,0,0,0.034),
+    0 6.7px 5.3px rgba(0,0,0,0.048),
+    0 12.5px 10px rgba(0,0,0,0.06),
+    0 22.3px 17.9px rgba(0,0,0,0.072),
+    0 41.8px 33.4px rgba(0,0,0,0.086),
+    0 100px 80px rgba(0,0,0,0.22);
+
+
+}
+
+.social-icons {
+    margin: auto;
+}
 
 /* NAVBAR */
 .nav-bg {
