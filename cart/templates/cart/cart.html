@@ -1,3 +1,9 @@
+<!-- Color for price text -->
+<style type="text/css">
+    td {
+        color:#fff;
+    }
+</style>
 {% extends "base.html" %}
 {% load static %}
 {% load cart_tools %}
@@ -48,7 +54,7 @@
                                         <p class="my-0"><strong>{{ item.product.name }}</strong></p>
                                     </td>
                                     <td class="py-3">
-                                        <p class="my-0">${{ item.product.price }}</p>
+                                        <p class="my-0 ">€{{ item.product.price }}</p>
                                     </td>
                                     <td class="py-3 w-25">
                                         <form class="form update-form" method="POST" action="{% url 'adjust_cart' item.item_id %}">
@@ -83,18 +89,18 @@
                                         <a class="remove-item text-danger float-right" id="remove_{{ item.item_id }}" data-product_size="{{ item.size }}"><small>Remove</small></a>
                                     </td>
                                     <td class="py-3">
-                                        <p class="my-0">${{ item.product.price | calc_subtotal:item.quantity }}</p>
+                                        <p class="my-0">€{{ item.product.price | calc_subtotal:item.quantity }}</p>
                                     </td>
                                 </tr>
                             {% endfor %}
                             <tr>
                                 <td colspan="5" class="pt-5 text-right cart-table-styling">
-                                    <h6><strong>Cart Total: ${{ total|floatformat:2 }}</strong></h6>
-                                    <h6>Delivery: ${{ delivery|floatformat:2 }}</h6>
-                                    <h4 class="mt-4"><strong>Grand Total: ${{ grand_total|floatformat:2 }}</strong></h4>
+                                    <h6 class="text-light"><strong>Cart Total: €{{ total|floatformat:2 }}</strong></h6>
+                                    <h6 class="text-light">Delivery: €{{ delivery|floatformat:2 }}</h6>
+                                    <h4 class="mt-4 text-light"><strong>Grand Total: €{{ grand_total|floatformat:2 }}</strong></h4>
                                     {% if free_delivery_delta > 0 %}
                                         <p class="mb-1 text-danger">
-                                            You could get free delivery by spending just <strong>${{ free_delivery_delta }}</strong> more!
+                                            You could get free delivery by spending just <strong>€{{ free_delivery_delta }}</strong> more!
                                         </p>
                                     {% endif %}
                                 </td>
@@ -118,7 +124,7 @@
                         </table>
                     </div>
                 {% else %}
-                    <p class="lead mb-5">Your cart is empty.</p>
+                    <p class="lead mb-5 text-light">Your cart is empty.</p>
                     <a href="{% url 'home' %}" class="btn btn-outline-black rounded-0 btn-lg">
                         <span class="icon">
                             <i class="fas fa-chevron-left"></i>

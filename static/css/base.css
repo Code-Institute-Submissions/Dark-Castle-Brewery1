@@ -27,7 +27,7 @@ body {
     left: 0;
     right: 0;
     width: 100%;
-    
+
 }
 
 .card-styling{
@@ -391,6 +391,17 @@ body {
     }
 
     .aboutus-address{
-    margin-top:11.5%;
+        margin-top:11.5%;
+    }
+
+    #footer-styling {
+    background-color: #FFB400;
+    margin-top: 25%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+
 }
+
 }
