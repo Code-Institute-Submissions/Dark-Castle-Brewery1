@@ -3,24 +3,75 @@
         <div class="container-fluid">
             <div class="container">
                 <div class="row footer-row">
-                                 
                     <div class="col-sm-12 col-md-6 col-lg-3 no-padding social-icons text-center order-md-4 order-lg-4">
-                            <a target="_blank" class="grey-text text-dark text-lighten-3 fa-4x" 
-                                    href="https://www.linkedin.com/in/adrian-looney/">
-                                    <i class="fab fa-linkedin" aria-hidden="true"></i>
-                            </a>
-                            <a target="_blank" class="grey-text text-dark text-lighten-3 fa-4x" 
-                                    href="https://github.com/Jammerref2015">
-                                    <i class="fab fa-github-square" aria-hidden="true"></i>    
-                            </a>  
-                            <a target="_blank" class="grey-text text-dark text-lighten-3 fa-4x" 
-                                    href="#">
-                                    <i class="fab fa-instagram-square" aria-hidden="true"></i>    
-                            </a>          
+                        <a target="_blank" class="grey-text text-dark text-lighten-3 fa-4x"
+                            href="https://www.linkedin.com/in/adrian-looney/">
+                            <i class="fab fa-linkedin" aria-hidden="true"></i>
+                        </a>
+                        <a target="_blank" class="grey-text text-dark text-lighten-3 fa-4x"
+                            href="https://github.com/Jammerref2015">
+                            <i class="fab fa-github-square" aria-hidden="true"></i>
+                        </a>
+                        <a target="_blank" class="grey-text text-dark text-lighten-3 fa-4x" href="#">
+                            <i class="fab fa-instagram-square" aria-hidden="true"></i>
+                        </a>
+                        <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#shippingModal">
+                            Important Shipping & Returns info
+                        </button>
+                        <div class="modal fade" id="shippingModal" tabindex="-1" aria-labelledby="shippingModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">Important Shipping & Returns info
+                                        </h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>
+                                            At Dark Castle brewery, we aim to dispatch your beer within 3 to 5 working
+                                            days.
+                                            Please contact us if you need an order urgently and we will endeavour to
+                                            provide
+                                            a faster turnaround. 
+                                        </p>
+                                        <p>We use Fastway couriers for local and national deliveries. If for some reason
+                                            you
+                                            are not happy with the product you receive, we will provide a refund within
+                                            30 days.
+                                        </p>
+                                        <p>
+                                            Refunds can only be provided on beer that has not been opened.
+                                            To process your refund, email info@darkcastlebrewery.ie for instructions.
+                                            The beer must be returned unopened to our brewery in Cork City.
+                                            The return shipping cost of items is the responsibility of the purchaser.
+                                            Once we have received the items in the condition that they were sent,
+                                            we will refund within 30 days, less postage charges.
+                                            All refunds will be issued through original method of payment.
+                                        </p>
+                                        <p>
+                                            Please note our shipping and returns policy is subject to change
+                                        </p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-               
             </div>
         </div>
     </div>
 </footer>
+
+
+<script type="text/javascript">
+    $('#shippingModal').on('shown.bs.modal', function () {
+        $('#myInput').trigger('focus')
+        
+    });
+</script>

@@ -4,9 +4,9 @@ from products.models import Product
 
 # Create your views here.
 def index(request):
-    """ A view to return the index page """
+    """ Products appears on home page order by product name """
 
-    products = Product.objects.all()
+    products = Product.objects.all().order_by('-name')
     context = {
         'products': products,
     }

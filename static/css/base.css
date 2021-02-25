@@ -417,3 +417,9 @@ body {
 }
 
 }
+
+/* hack for not displaying size in checkout */
+.dontDisplay {
+    display: none;
+    visibility: hidden;
+}
