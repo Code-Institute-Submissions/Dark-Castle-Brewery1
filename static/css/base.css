@@ -38,8 +38,6 @@ body {
     0 22.3px 17.9px rgba(0,0,0,0.072),
     0 41.8px 33.4px rgba(0,0,0,0.086),
     0 100px 80px rgba(0,0,0,0.22);
-
-
 }
 
 .social-icons {
@@ -338,7 +336,7 @@ body {
     }
 
     /* Fix to prevent links to home and about us appearing on desktop navbar */
-    #mobile-header-links {
+    .mobile-header-links {
         display: none;
         visibility: hidden;
     }
@@ -357,6 +355,17 @@ body {
     .display-4.logo-font.text-black {
         font-size: 2rem;
     }
+
+
+    .checkout-image{
+        max-width: 32%;
+    height: auto;
+    }
+
+.button-test {
+    margin-left: 5px;
+    font-size: 10%;
+}
 
     .nav-link {
         padding: 0.15rem;
@@ -405,17 +414,14 @@ body {
     left: 0;
     right: 0;
     width: 100%;
-
 }
 
 .update-link,
-.remove-item{
- 
+.remove-item {
    cursor: pointer;
    margin: -1%;
    font-size: 25px;
-}
-
+   }
 }
 
 /* hack for not displaying size in checkout */

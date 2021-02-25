@@ -1,12 +1,12 @@
 <div class="collapse navbar-collapse" id="main-nav">
     <ul class="navbar-nav w-auto mx-auto">
         <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="" id="mobile-header-links" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Dark Castle Brewery
+            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <a href="{% url 'aboutus' %}" class="dropdown-item mobile-header-links">About - Contact</a>
+                <a href="{% url 'home' %}" class="dropdown-item mobile-header-links" >Home</a>
             </a>
             <div class="dropdown-menu nav-bg border-0" aria-labelledby="other-mobile-links">
-                <a href="{% url 'aboutus' %}" class="dropdown-item">About - Contact</a>
-                <a href="{% url 'home' %}" class="dropdown-item">Home</a>
+                
             </div>
           
         </li>
