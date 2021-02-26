@@ -342,6 +342,10 @@ body {
     }
 }
 
+.order-success-text {
+    color: #ffe100e3;
+}
+
 /* pad the top a bit when navbar is collapsed on mobile */
 @media (max-width: 991px) {
     .header-container {
