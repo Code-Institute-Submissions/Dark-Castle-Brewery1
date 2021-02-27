@@ -116,19 +116,8 @@
 {{ block.super }}
 {% include 'products/includes/quantity_input_script.html' %}
 <script type="text/javascript">
-// Fix to prevent typing in update field  
-// add this to README https://stackoverflow.com/questions/17164278/disable-writing-in-input-type-number-html5
-
-$("[type='number']").keypress(function (evt) {
-    evt.preventDefault();
-});
-
-    // Update quantity on click
-    $('.update-link').click(function(e) {
-        var form = $(this).prev('.update-form');
-        form.submit();
-    })
-
+     
+   
     // Remove item and reload on click
     $('.remove-item').click(function(e) {
         var csrfToken = "{{ csrf_token }}";
