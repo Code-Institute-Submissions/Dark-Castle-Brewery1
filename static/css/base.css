@@ -29,12 +29,11 @@ body {
 
 #footer-styling {
     background-color: #FFB400;
-    margin-top: 5%;
+    margin-top: 15%;
     position: absolute;
     left: 0;
     right: 0;
     width: 100%;
-
 }
 
 .card-styling{
@@ -68,6 +67,10 @@ body {
     color:black;
 }
 
+
+.dropdown-menu-fix{
+    top:-11px;
+}
 
 /* from Bulma */
 .icon {
@@ -412,7 +415,7 @@ body {
 }
 
 /* pad the top a bit when navbar is collapsed on mobile */
-@media (max-width: 991px) {
+@media (max-width: 1281px) {
     .header-container {
         padding-top: 116px;
     }
