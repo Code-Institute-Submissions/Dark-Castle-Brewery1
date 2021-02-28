@@ -1,395 +1,1316 @@
-# Dark Castle Brewery - E-Commerce site for a small brewery!
-
-#### README in progress   
 
   
 
-![readme image](/static/images/readme_image.jpg)
+# Dark Castle Brewery - E-Commerce Web App With Craft Beer
 
   
 
-  
-
-A live demo can be found [here](http://watchthisnext.herokuapp.com/)
-
-  
-
-  
-
-
-## Contents ##
-#### UX
-
-* Project Goals
-
-* User Goals
-
-* User Stories
-
-* Site Owner Goals
-
-* User Requirements and Expectations
-
-* Design Choices
-
-* Fonts
-
-* Icons
-
-* Colours
-
-* Technologies
-
-#### Features
-
-* Features that have been developed
-
- * Features that will be implemented in the future
- 
-* Testing
-
-* Bugs
-
-* Deployment
-
-* Credit
-
-## UX
-
-### Project Goals ###
-
-The **goal** for this project was to make an easy to use site that would allow a user to create a film review that they could share with other film buffs. A user could use the site to search for a list of comedies and possibly find a movie that they are interested in watching. Information about a particular movie is available including the platform that the movie was viewed. This would let  the vistor to the the site know how they could access the movie.
-
--  **Wireframes** for this project are available in the Mockups folder.
-
-### User Goals ###
-
-* TODO
-
-- TODO 
-
-
-### User Stories ###
-
-* As a **user**, I want a **text** so I will **text**.
-
-* As a **user**, I want to 
-As a **user**, I want to 
-
-  
-### Site Owner Goals ###
-
-* As a **site owner**, I want to give users .
-
-* As a **site owner**, I want to give users .
-
-* As a **site owner**, I want to give users . 
-
-  
-### User Requirements and Expectations ###
-
-**Requirements**
-
-* Content displayed in a **visually appealing** manner.
-
-* 
-
-* Functions of the site clearly labelled and easy to access.
-
-**Expectations**
-
-* Content is **visually satisfying** and presented.
-
-* The features of the site are explained clearly and simply.
-
-* Buttons are clear and easy to read.
-
-- Forms are clear and easy to understand.
-
-  
-### Design Choices ###
-
-**Fonts**
-
-- TODO 
-  
-
-**Colours**
-
-- TODO 
-
-- #384345 was used for the main background. [#384345](https://www.color-hex.com/color/384345)
-
-- #617478 was used for the navbar and footer. [#617478](https://www.color-hex.com/color/617478)
-
-- Button colours for the search field were red for cancel and blue for submit. These colors were the standard materializecss colors. 
-
-- Button colour for the log-in form is blue. Standard materializecss color. 
-
-- Button color for 'delete movie' on the movie review cards is[#26a69a](https://www.color-hex.com/color/26a69a).
-
-  
-**Images**
-
-
-- TODO .
-
-
-
-  
-
-## Wireframing ##
+Code Institute - Final Milestone Project (4) - Full Stack Frameworks With Django
 
  
-Balsamiq was used for wireframing. This produced some basic wireframes, which were used to get an overall feeling for what would go where and how things would look on different screen sizes. Wireframes were created for mobile views firstly with the desktop views following.
+Dark Castle Brewery is a multi-page e-commerce web application with a simple aim, the sale of artisan craft beer.
 
-**TODO Mockup's are available in the 'Mockups' folder.**
+The application is aimed at lovers of craft beer, the overall styling and the name itself may appeal to fans of the fantasy genre.
 
   
-## TODO Features ##
 
-**Features** that have been **implemented:**
+The primary aim of this application is to purchase products which led to the decision to keep things simple. The store is currently small but has the potential to grow and the app has functions that make that easy to achieve including the ability to add products via the admin.  Although the majority of the admin activities is done through [the Django admin site](https://docs.djangoproject.com/en/3.1/ref/contrib/admin/), 
+the web app also provides a more pleasant environment for common tasks such as adding, editing, and deleting products using the web app's UI.
 
-* Easy to use **navigation** on all screen sizes.
+  
 
-* Popup modals are used if a logged in user wishes to delete a 'movie' as well as a 'helper' modal on the add/edit movie form instructing users on how to get a URL for an image.
+Live at [https://darkcastlebrewery.herokuapp.com/](https://darkcastlebrewery.herokuapp.com/)
 
-*  **Attractive** design aimed at ease of use.
+  
 
-- Non logged in users have full read capability. They can scroll through and also search for movie(s).
+Test transaction details:
 
-- Logged-in users can create and edit 'movies'.
+*  **credit card:** 4242 4242 4242 4242
 
-**Features** that will be **implemented** in the **future:**
+*  **expiration date:** 04 / 24
 
-##### Incorporate social media
+*  **CVC:** 424
 
-* The ability to share a 'movie' via social media by incorporating social media platforms. For example, this would allow a user to post to instagram. Sharing this way would help increase the popularity of the site.
+*  **ZIP:** 42424
 
-##### Option to add a youtube link to a movie trailer/clip
+  
 
-* The abilty to embed a movie trailer / clip into a movie card. This could be done by implimenting a youtube API and would be incorporated into the dedicated movie page.
+A demo and/or admin credentials available upon request.
 
-##### Option to add comment section to movie cards
+  
 
-- Give users the abilty to leave comments on a particular movie. Controls would be put in place that would give the creator (or admin) of the review the option of enabling, deleting or flagging comments as well as allowing only friends to comment. etc
+![App Showcase](readme-files/img-intro.png)
 
-##### User profile
+  
 
-- Create a user profile. A user could provide basic information about themselves as well as being able to create lists e.g users top ten movies. User could also provide a profile image or select from a number of movie inspired images.
+## Table of Contents
 
-##### Rate other movies
+  
 
-- Rate other movies. The ratings that would then appear on a given movie will be based on a computation.
+*  [**UX - research and goals**](#ux---research-and-goals)
 
-##### Curated top ten lists
++  [Conclusion of the Research](#conclusion-of-the-research)
 
-* Feature top ten lists based on a season or an event, for example, Top ten Christmas movies around the holiday season or top ten Steven Spielberg movies on his birthday. These would be curated by the site owner.
++  [Business Goals](#business-goals)
 
-##### Lost username/password support
++  [Customer Goals](#customer-goals)
 
-- Provide support system for lost username / password.
+*  [**Features and App Sections**](#features-and-app-sections)
 
-##### Image optimisation
++  [Web App Sections](#web-app-sections)
 
-- Incorporate system for managing images that are uploaded by users that would enable them to be dynamically resized to specified size on load as well as compression. This would ensure that images are optimised for the site improving preformace.
++  [Features and Django Apps](#features-and-django-apps)
+
++  [Features Left to Implement](#features-left-to-implement)
+
++  [Wireframes](#wireframes)
+
+*  [**Information Architecture**](#information-architecture)
+
++  [Data Models](#data-models)
+
+*  [**Graphic Design and Brand Elements**](#graphic-design-and-brand-elements)
+
++  [Fonts](#fonts)
+
++  [Colours](#colours)
+
++  [Icons](#icons)
+
++  [Images](#images)
+
++  [Visual Style](#visual-style)
+
+*  [**Technologies Used**](#technologies-used)
+
+*  [**Testing and Defensive Design**](#testing-and-defensive-design)
+
+*  [**Deployment**](#deployment)
+
++  [Local Deployment](#local-deployment)
+
++  [Heroku Deployment](#heroku-deployment)
+
++  [Hosting Files with AWS](#hosting-files-with-aws)
+
++  [Sending E-mails through Gmail](#sending-e-mails-through-gmail)
+
+*  [**Credits**](#credits)
+
++  [Content](#content)
+
++  [Media](#media)
+
++  [Inspiration Sources](#inspiration-sources)
+
++  [Coding Sources](#coding-sources)
+
++  [Acknowledgments](#acknowledgments)
+
+  
+
+## UX - research and goals
+
+  
+
+In 2012 we had only 15 breweries in Ireland, now we have over 70 and the range of beers being produced is growing constantly.
+
+In 2019 we saw sales of Irish craft beer grow by approximately 18%, while we saw beer sales rise by only 2% (driven largely by low alcohol). The craft Beer market share has increased from 2.6% in 2017 to 3.4% in 2019.
+Source: **https://www.bordbia.ie/industry/news/food-alerts/2020/the-irish-craft-beer-industry/**
+
+Just go into any pub or off-license and you will see that there are many varieties of beers from breweries all over the world. To try and stand out from the crowd many companies will adopt clever packaging and names to get your attention.
 
 
-##### Home page optimisation
+The fantasy genre is also a massive industry thanks to the likes of The Lord of the Rings and Harry Potter. This is what inspired the design for the products. The marriage of craft beer fans with a love of the fantasy genre.
 
-- Currently the home page is one single page. As users add review cards the page grows in size. Two possible options to improve this are available.
+  
+  
 
-  - Pagination. Limit the amount of cards to a particular page for example 4 per page.
+### Business Goals
 
-  - Only load a set number of cards and as the user scrolls load another set of cards and so on.
+As an e-commerce site owner...
+
+  * I want the users to be comfortable with the brand identity so that they will want to buy products through my platform.
+
+* I want to offer a shopping journey that is straightforward and gives the user the option of signing up to enable a speedier shopping experience on return visits.
+
+* I want to be able to make changes to the inventory myself so that I don't have to rely on external support when it comes to that.
+
+
+  
+  
+
+### Customer Goals
+
+  
+
+As a customer...
+
+  
+
+* I want to buy from a brand I can relate to in a simple straightforward way.
+
+* I want to be able to read about the brewery to learn about the history. 
+* I want to be able to contact the brewery if I had any questions regarding the products. 
+
+* I want to be able to store my shipping details so that it’s easier for me to check out.
+
+* I want to be able to see my orders so that I can track what I buy and spend money on.
+
+  
+
+As a loyal customer...
+
+ * I want an opportunity to get to know the team behind this brand I buy so much from and other like-minded people so that I can see if my loyalty to the brand is a good investment.
+
+  
+
+<div  align="right">
+
+<a  href="#table-of-contents"> ⇧ Back To Top </a>
+
+</div>
+
+  
+
+## Features and App Sections
+
+  
+
+Based on the user stories and UX research, I've created an overview of the most important features and information the web app should consist of. Darkcastlebrewery is a small e-commerce store selling one type of product therefore the decision was to keep things simple which is why the home page brings you directly to the product's page. 
+
+  
+
+![Features and App Sections Overview](readme-files/img-mvp.png)
+
+  
+
+In the next few sections, I will focus more on the most important sections and features, as well as additional features left to be implemented. The next step, described after this chapter, was choosing a database suitable to the project's needs and defining models.
+
+  
+
+### Web App Sections
+
+  
+1.  **Navigation at the top** - Fixed on the top so that the users can navigate themselves anytime. It consists of two HTML code snippets for better responsiveness handling.
+
+1.  **Homepage** - The store is directly on the front page. This was done to keep things simple. The user is visiting the site intending to buy a certain kind of product and therefore is brought directly to the store.
+
+1.  **Webshop** - Standard e-commerce feed of products with the ability to search for a particular product. Each product links to a product detail page where the user can read more about it.
+
+1.  **Product page** - A page dedicated to an individual product. Consists of a product description. The product descriptions are written in a style that would fit into the fantasy theme. 
+
+1.  **About Contact us page** - The about us / contact page includes some information regarding the history of the brewery and it also contains a form enabling users to send quires. 
+
+  
+
+1.  **User account** - Available to registered/logged-in users, it contains an order history and safely stores shipping details for a smooth checkout.
+
+1.  **Admin account** - Available users with admin rights to have access to the orders, user profiles, as well as product inventory. The majority of the information is stored in [the Django admin site](https://docs.djangoproject.com/en/3.1/ref/contrib/admin/) but the users can also do common tasks such as adding, editing, and deleting products through darkcastlebrewery's UI.
+
+1.  **Footer** - A button to view the shipping and returns detail is available on the footer. Clicking on it opens a modal. The footer also contains links to social media profiles, clicking on an icon causes a page to open in a new window.
+
+  
+
+### Features and Django Apps
+
+  
+
+darkcastlebrewery, [a Django project](https://docs.djangoproject.com/en/3.1/ref/applications/), consists of 6 Django applications listed below.
+
+As explained in Django's documentation - a Django application describes a Python package that provides some set of features. Applications may be
+
+reused in various projects.
+
+  
+
+*  `homepage`
+
+* `about``
+
+*  `products`
+
+*  `cart`
+
+*  `checkout`
+
+*  `profiles`
+
+  
+
+Some features I've worked on are available across the Django project, while others are tied to a specific Django application. The following list of features is structured in a way that should help with understanding how the features are spread throughout the project.
+
+  
+
+**Navigation**
+
+* Always present on the top so that the users can navigate themselves anytime. It consists of **the top navigation** (a combination of a brand logo, search box, account-related activities, and the cart functionality) and **the main navigation** below it (for navigating throughout the main app sections).
+
+* Navigation links are compressed into a hamburger menu on mobile and tablet devices so that the main focus of the user is the shopping cart in the top right corner at all times, and not the navigation links.
+
+  
+
+![Navigation Feature](readme-files/img-features/img-features-navigation.png)
+
+  
+
+**Search functionality**
+
+* The search box is part of the top navigation and is, therefore, accessible on all pages.
+
+* it is collapsed under the hamburger menu on tablet and mobile devices as shown in the image above.
+
+* It allows customers to enter keywords associated with the products they wish to purchase for example 'IPA', 'savage' etc.
+
+* The search results are displayed as a feed of products by using the page templates prepared for the `products` Django app (i.e. webshop).
+
+* The search results show the number of products found for the search query, if the item searched for is not available then the page will be blank.
+
+  
+
+![Search Feature](readme-files/img-features/img-features-search.png)
+
+  
+
+**Toasts**
+
+* 'Toasts' are small snippets of messages divided into 4 main categories: `toast_success`, `toast_info`, `toast_warning` and `toast_error`.
+
+* They appear in the top right on every page whenever a certain action has been done by the user.
+
+* The purpose is to give feedback on the action a user has just performed, such as logging in, logging out, adding a product to the cart, updating the cart, finishing the checkout process.
+
+* It generally consists of the title based on the toast category with a matching text about the action. The `toast_success` toast additionally has cart information, that is hidden on `profiles` pages and for some other activities if nothing is added to the cart.
+
+  
+
+![Toasts Features](readme-files/img-features/img-features-toasts.png)
+
+  
+
+**Django-allauth feature**
+
+*  `Django-allauth` is a Python package. As written in the [django-allauth docs](https://django-allauth.readthedocs.io/en/latest/), it is an "integrated set of Django applications addressing authentication, registration, account management as well as 3rd party (social) account authentication."
+
+* It provides a set of features such as **signup**, **login**, **logout**, and **password change**.
+
+* After signing up, a verification e-mail is sent to the registered e-mail to confirm it. Once confirmed, the user can log in with their credentials and access the `profiles` app explained later below.
+
+* Links to these features can be found in the navigation, under the **My Account** dropdown menu, as well as on the pages and throughout the web app (for example, registration prompt window on the `homepage`).
+
+  
+
+![Django-allauth Features](readme-files/img-features/img-features-allauth.png)
+
+  
+
+**Automatic e-mails**
+
+* A Gmail account **darkcastlebrewery@gmail.com** has been created specifically for this project and used as a sender for all verification, reset, and confirmation e-mails.
+
+* For example, users receive an **order confirmation e-mail** after a purchase, **account verification e-mail** after the registration, **password reset e-mail** after requesting a password reset, etc.
+
+  
+
+![Automatic E-mails Features](readme-files/img-features/img-features-automatic-emails.png)
+
+  
+
+**Homepage app**
+
+*  `homepage` Django app brings the customer directly to the store simplifying the process of purchasing products. The store sells one kind of product, the aim was to keep this simple.
+
+  
+  
+
+![Homepage Features](readme-files/img-features/img-features-homepage.png)
+
+  
+
+**About app**
+
+*  `about` Django app is one of the apps that are mostly relying on textual content.
+
+* It features a piece on the history of the brewery.
+
+* It also features a form to allow a user to contact the brewery with any questions or queries they may have.
+
+  
+
+![About Page Feature](readme-files/img-features/img-features-about.png)
+
+  
+  
+
+**Products app, i.e. Webshop**
+
+*  `products` Django app is where all the logic and templates connected to the product feed and individual products are.
+
+* It can be divided into three main sections: **shop**, **product pages**, and **admin product management activities**.
+
+*  **Shop** is the main feed of products and this is where the majority of shopping journeys are expected to start.
+
+*  **Product pages** are pages dedicated to each product. On these pages, the users can **read the product description**
+
+Users can also filter the products based on these tags in the **shop**.
+
+*  **Admin product management activities** include adding, editing, and deleting products. Users with admin rights can do that directly in the UI through forms. In case of deleting a product, a **modal** will open to double-check if the user wants to do this irreversible action.
+
+  
+
+![Shop Features](readme-files/img-features/img-features-shop.png)
+
+  
+
+**Cart app**
+
+*  `cart` Django app is a standard e-commerce functionality that aids the checkout process.
+
+* A cart is always present in the top right corner of the web app. **It turns blueish-green if it's full and shows the number of items added to the cart and turns black when empty**.
+
+*  **Adding products to the cart works differently on the product pages**. The users can define the exact amount of products they want to put into the cart as long as it's within the range (1 to 50). 
+
+
+* Clicking on the cart in the top right corner, the user gets an overview of all the products put into the cart. The user can also modify the quantity of the added products as well as remove the products from the cart. Since removing products from the cart is not an irreversible action, I have decided not to have a modal here so that the focus remains on the checkout process.
+
+
+
+* The information provided on this page includes **usual product information, quantity per product, costs per product, order costs** **shipping costs** (free for orders worth 100.00€ and above and **total order costs**.
+
+
+
+  
+
+![Cart Features](readme-files/img-features/img-features-cart.png)
+
+  
+
+**Checkout app**
+
+*  `checkout` Django app is another standard e-commerce functionality that enables users to buy the products online from the webshop.
+
+* To check out, the user is presented with a **form asking for the shipping and payment details** and with the **overview of the order**.
+
+* Users can easily go back to the cart and adjust it by clicking on the cart in the top right corner or breadcrumbs in the top left corner.
+
+* Both registered and anonymous users can shop at Dark Castle Brewery. Logged-in users will have an option to **save their information** to the profile which should populate the form with relevant details for the next purchase.
+
+* A webhook is implemented to the `checkout` so that the order is successfully processed in case the checkout process gets interrupted. Some reasons might be closing the browser too soon or losing an internet connection.
+
+* "payments" are handled through `stripe`. A test purchase can be made with the following details:
+
+*  **credit card:** 4242 4242 4242 4242
+
+*  **expiration date:** 04 / 24
+
+*  **CVC:** 424
+
+*  **ZIP:** 42424
+
+* After the payment has been processed, the user is presented with the order summary on the **order confirmation page**.
+
+* Logged in buyers can also see their **order history** on the `profiles` pages.
+
+  
+
+![Checkout Features](readme-files/img-features/img-features-checkout.png)
+
+  
+
+**Profiles app**
+
+*  `profiles` Django app is available to register, authenticated users.
+
+* it offers 2 features: **order history** and **saving shipping information**.
+
+*  **order history** displays all previous orders per user account.
+
+*  **saving shipping information** is done through a form that can be edited anytime. This information is what populates the checkout form for the next orders and where shipping information saved during the checkout process is stored.
+
+  
+  
+
+![Profiles Features](readme-files/img-features/img-features-profiles.png)
+
+  
+
+### Features Left to Implement
+
+  
+
+Working on this project has been an incredible learning experience and I truly wish I had more time to implement many other features. Here are some I had in mind while working on the project:
+
+
+
+**Contact page**
+
+* The contact page features a form. Currently, the data is not sent anywhere. It would be helpful to have this form sent directly to the admin(s).
+
+  
+
+![Save for Later Feature](readme-files/img-features-left-to-implement/img-features-save-for-later.png)
+
+  
+
+**Cart keeps items after logging out**
+
+* A simple feature that would store what the user had in the cart before logging out.
+
+* In combination with `toasts`, it would act as a reminder of what the user's last shopping-related action was. This would help to increase the conversion rate. 
+
+ **Include a blog**
+
+* A blog would be a great way to keep up to date with the day-to-day activities of the brewery and allow the customer to interact. 
+
+ **Discounts for loyal customers**
+ * Implement discounts for loyal customers. This could be possibly a points system in which a customer earns a certain amount of points depending on how much they have spent.  
+  
+
+**Product reviews**
+
+* Another standard e-commerce feature that helps users with buying decisions. The idea would be to implement ratings and product reviews on product pages.
+
+  
+**Email newsletter**
+
+* When a user signs up give them the option of receiving a newsletter weekly newsletter with personalized product recommendations.
+
+  
+
+### Wireframes
+
+  
+
+The wireframes linked below are only some that I've made for this project. They were created with [balsamiq](Balsamiq.cloud).
+
+  
+
+Desktop wireframes:
+
+*  [homepage / webshop](https://raw.githubusercontent.com/valentina-b/ecosio-eco-friendly-cosmetics/master/readme-files/wireframes/dsk/wireframe-dsk-homepage.png)
+
+*  [about page](https://raw.githubusercontent.com/valentina-b/ecosio-eco-friendly-cosmetics/master/readme-files/wireframes/dsk/wireframe-dsk-about.png)
+
+*  [product detail page](https://raw.githubusercontent.com/valentina-b/ecosio-eco-friendly-cosmetics/master/readme-files/wireframes/dsk/wireframe-dsk-product-page.png)
+
+*  [cart](https://raw.githubusercontent.com/valentina-b/ecosio-eco-friendly-cosmetics/master/readme-files/wireframes/dsk/wireframe-dsk-cart.png)
+
+*  [checkout](https://raw.githubusercontent.com/valentina-b/ecosio-eco-friendly-cosmetics/master/readme-files/wireframes/dsk/wireframe-dsk-checkout.png)
+
+*  [folder with all desktop wireframes](https://github.com/valentina-b/ecosio-eco-friendly-cosmetics/tree/master/readme-files/wireframes/dsk)
+
+  
+
+
+
+Mobile wireframes:
+
+*  [homepage /webshop](https://raw.githubusercontent.com/valentina-b/ecosio-eco-friendly-cosmetics/master/readme-files/wireframes/mob/wireframe-mob-homepage.png)
+
+*  [about page](https://raw.githubusercontent.com/valentina-b/ecosio-eco-friendly-cosmetics/master/readme-files/wireframes/mob/wireframe-mob-about.png)
+
+*  [product detail page](https://raw.githubusercontent.com/valentina-b/ecosio-eco-friendly-cosmetics/master/readme-files/wireframes/mob/wireframe-mob-product-page.png)
+
+*  [cart](https://raw.githubusercontent.com/valentina-b/ecosio-eco-friendly-cosmetics/master/readme-files/wireframes/mob/wireframe-mob-cart.png)
+
+*  [checkout](https://raw.githubusercontent.com/valentina-b/ecosio-eco-friendly-cosmetics/master/readme-files/wireframes/mob/wireframe-mob-checkout.png)
+
+*  [folder with all mobile wireframes](https://github.com/valentina-b/ecosio-eco-friendly-cosmetics/tree/master/readme-files/wireframes/mob)
+
+  
+
+<div  align="right">
+
+<a  href="#table-of-contents"> ⇧ Back To Top </a>
+
+</div>
+
+  
+
+## Information Architecture
+
+  
+
+As Django works with SQL databases by default, I was using SQLite in development. Heroku, however, provides a PostgreSQL database for deployment.
+
+  
+
+### Data Models
+
+  
+
+**User Model**
+
+  
+
+Django `User` model is a part of Django’s authentication system `Django.contrib.auth.models`. You can read more about its fields, attributes,
+
+methods, etc. [here](https://docs.djangoproject.com/en/3.0/ref/contrib/auth/).
+
+  
+
+**Profiles App**
+
+  
+
+`UserProfile` model
+
+  
+
+| **Name** | **Database Key** | **Field Type** | **Type Validation** |
+
+| ---------- | ------------------ | ---------------- | --------------------- |
+
+| User | user | OneToOneField 'User' | on_delete=models.CASCADE |
+
+| Default Phone Number | default_phone_number | CharField | max_length=20, null=True, blank=True |
+
+| Default Country | default_country | CountryField | blank_label='country', null=True, blank=True |
+
+| Default Postcode | default_postcode | CharField | max_length=20, null=True, blank=True |
+
+| Default Town or City | default_town_or_city | CharField | max_length=40, null=True, blank=True |
+
+| Default Street Address | default_street_address | CharField | max_length=80, null=True, blank=True |
+
+  
+  
+
+**Products App**
+
+  
+
+`Category` model
+
+  
+
+| **Name** | **Database Key** | **Field Type** | **Type Validation** |
+
+| ---------- | ------------------ | ---------------- | --------------------- |
+
+| Name | name | CharField | max_length=254 |
+
+| Friendly Name | friendly_name | CharField | max_length=254, null=True, blank=True |
+
+
+
+`Product` model
+
+  
+
+| **Name** | **Database Key** | **Field Type** | **Type Validation** |
+
+| ---------- | ------------------ | ---------------- | --------------------- |
+
+| SKU | sku | CharField | max_length=254, null=True, blank=True |
+
+| Category | category | ForeignKey 'Category' | null=True, blank=True, on_delete=models.SET_NULL |
+
+| Name | name | CharField | max_length=55 |
+
+| Description | description | TextField | max_length=375 |
+
+| Price | price | DecimalField | max_digits=6, decimal_places=2 |
+
+| Rating | price | DecimalField | max_digits=6, decimal_places=2 |  null=True|blank=True
+  
+
+**Checkout App**
+
+`Order` model
+
+
+| **Name** | **Database Key** | **Field Type** | **Type Validation** |
+
+| ---------- | ------------------ | ---------------- | --------------------- |
+
+| Order Number | order_number | CharField | max_length=32, null=False, editable=False |
+
+| User Profile | user_profile | ForeignKey 'UserProfile' | on_delete=models.SET_NULL, null=True, blank=True, related_name='orders' |
+
+| Full Name | full_name | CharField | max_length=50, null=False, blank=False |
+
+| E-mail | email | EmailField | max_length=254, null=False, blank=False |
+
+| Phone Number | phone_number | CharField | max_length=20, null=False, blank=False |
+
+| Country | country | CountryField | blank_label='(select your country)', null=False, blank=False |
+
+| Town or City | town_or_city | CharField | (max_length=40, null=False, blank=False |
+
+| Postcode | postcode | CharField | max_length=20, null=False, blank=False |
+
+| Street Address | street_address | CharField | max_length=80, null=False, blank=False |
+
+| Date | date | DateTimeField | auto_now_add=True |
+
+| Delivery Cost | delivery_cost | DecimalField | max_digits=6, decimal_places=2, null=False, default=0 |
+
+| Order Total | order_total | DecimalField | max_digits=10, decimal_places=2, null=False, default=0 |
+
+| Order Total | grand_total | DecimalField | max_digits=10, decimal_places=2, null=False, default=0 |
+
+| Original Cart | original_cart | TextField | null=False, blank=False, default='' |
+
+| Stripe PID | stripe_pid | CharField | max_length=254, null=False, blank=False |
+
+| Loyalty Points | loyalty_points | DecimalField | max_digits=10, decimal_places=0, null=False, default=0 |
+
+ 
+
+`OrderLineItem` model
+
+
+| **Name** | **Database Key** | **Field Type** | **Type Validation** |
+
+| ---------- | ------------------ | ---------------- | --------------------- |
+
+| Order | order | ForeignKey 'Order' | null=False, blank=False, on_delete=models.CASCADE, related_name='lineitems' |
+
+| Product | product | ForeignKey 'Product' | null=False, blank=False, on_delete=models.CASCADE |
+
+| Quantity | quantity | IntegerField | null=False, blank=False, default=0 |
+
+| Line Item Total | lineitem_total | DecimalField | max_digits=6, decimal_places=2, null=False, blank=False, editable=False |
+
+  
+ 
+
+<div  align="right">
+
+<a  href="#table-of-contents"> ⇧ Back To Top </a>
+
+</div>
+
+  
+
+## Graphic Design and Brand Elements
+
+  
+
+The target audience identifies both craft beer and the fantasy genre.
+
+As a lover of craft beers myself I was aware of the many fantastical design elements some craft beer breweries employ to grab potential customers when on the shelf such as bright colours, loud graphics along with an attention-grabbing product name. I had to be aware of what kind of product packaging and web design guidelines competitors and cosmetic companies are following. Since my marketplace is going to have those products, my design had to match them
+
+
+Two brands/breweries were a huge inspiration for my design - the fantasy theme used by [wychwood brewery](https://www.wychwood.co.uk/) and the colourful products [Brasserie Goudale](http://brasserie-goudale.com/) sell.
+
+I decided on four product types and each one would need to be very different in terms of styling. They all use the same frame styling which helps tie the brand together but the images used are very different. I also wanted the cans to be very different in colour.
+
+  
+  
+  
+
+![Design Inspirations](readme-files/img-design-inspirations.png)
+
+  
+
+### Fonts
+
+I have come across [Cinzel](https://fonts.google.com/specimen/Cinzel?preview.text_type=custom) by browsing through Google fonts. I was looking for a font that would fit the fantasy theme of the store. 
+  
+
+### Colours
+
+My colour selection for this project was very simple. I've chosen a dark shade of blue (#2D4059) for the background. In a contrast to it, a darker shade of yellow (#FFB400) has been chosen for the header and footer.
+
+The text uses a very slightly off-white color (#F6F6F6) which contrasts nicely with the colour used for the background.
+
+Red is used on the important shipping and returns the button to enable it to stand out against the colour of the footer.
+
+  
+
+![Colour Palette](readme-files/img-colour-palette.png)
+
+  
+
+### Icons
+The icons used in the app are from font awesome and they are used to make it clear as to what their functions are. I.E shopping cart uses a 'cart' icon.
+
+  
+
+### Images
+
+  
+  
+
+As the products for sale in this store do not exist I had to create them myself in Photoshop using a variety of sources. Each of the different products having a different colour scheme and image style based on the name and the type of beer that would allow them to stand out on the shelves.
+
+  
+
+### Visual Style
+
+  
+
+The goal of this store is to provide a straightforward shopping experience for the target audience who are craft beer aficionados and also have a liking for the fantasy genre.
+
+  
+
+The colour palette was brought to my attention via a post on Instagram and I felt that it would suit the theme of this store. The colours being designed to work together. The font choice is inspired again by the fantasy theme.
+
+  
+
+The store needs to be clutter-free and easy to navigate. The product cards incorporate shadows to give a 3D effect that 'lifts ' them off the page.
+
+  
+
+The 'about' page features a photo of two pets. The idea is that the artwork on the labels features fantasy cats and dogs and they were inspired by the store owner's pets! It also provides customers with a little history of the brewery.
+
+  
+  
+
+<div  align="right">
+
+<a  href="#table-of-contents"> ⇧ Back To Top </a>
+
+</div>
 
   
 
 ## Technologies Used
 
-### Languages Used
+  
 
--  [HTML5](https://en.wikipedia.org/wiki/HTML5)
-
--  [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
-
--  [JavaScript](https://www.javascript.com/)
-
--  [Python 3.8.5](https://www.python.org/)
-
- 
-### Frameworks, Libraries and Programs Used
-
-#### Front-End
-
--  [](https://??????.com/) - Used for the responsive layout as well as the navigation, header, footer, forms, item cards and modals.
-
--  [Font Awesome](https://fontawesome.com/) - Font Awesome was used to add social media icons at the bottom of the page and icons throughout the pages.
-
--  [Google Fonts](https://fonts.google.com/) - Google Fonts was used to import 'Nunito' font in the style.css file.
-
--  [dafont](https://www.dafont.com/) - 'Amity Jack' Font for navbar optained from dafont.com
-
-
--  [jQuery 3.5.1](https://jquery.com/) - Used to .................
-
-#### Back-End
-
--  [Jinja 2.11.2](https://jinja.palletsprojects.com/en/2.11.x/) - Templating language used across all HTML pages.
-
--  [Werkzeug 1.0.1](https://werkzeug.palletsprojects.com/en/1.0.x/) - Used in hashing and unhashing user passwords.
-
-
-
-#### General
--  [Git](https://git-scm.com/) - Git was used to allowing for tracking of any changes in the code and version control.
-
--  [Github](https://github.com/) - GitHub is used to host the project files.
-
--  [Balsamiq](https://balsamiq.com/) - Balsamiq was used to create mockups.
-
--  [GitPod](https://www.gitpod.io/) - Web based IDE used to compile the code.
-
--  [TinyJPG](https://tinypng.com/) - Used to minify and compress images.
-
--  [Heroku](https://dashboard.heroku.com/apps) - A cloud platform used to deploy the web application.
-
--  [imagecompressor](https://imagecompressor.com/) - Used to compress placeholder image.
-
--  [StackEdit](https://stackedit.io/) - Markdown editor used to create the readme and testing markdown.
-
--  [Git](https://git-scm.com/)
-
-## Testing
-
-#### Full testing documentation is available in testing.md
+This project mostly focuses on the following technologies:
 
   
-# Deployment
 
-The website is hosted via [GitHub](https://github.com/), with the source code being available on [my repository](https://github.com/Jammerref2015/watchthisnext).
+1.  [HTML](https://en.wikipedia.org/wiki/HTML) - for creating the layout and the structure of the website
 
-### Requirements
--  **Python3** to run your application
+1.  [CSS](https://en.wikipedia.org/wiki/Cascading_Style_Sheets) - for styling the website’s HTML code
 
--  **PIP** to install all app requirements
+1.  [Bootstrap](https://getbootstrap.com/) - for additional styling and adding responsiveness to the website
 
--  **IDE** of your choice - e.g Gitpod / Visual studio
+1.  [JavaScript](https://en.wikipedia.org/wiki/JavaScript) and [jQuery](https://jquery.com/) - for frontend interactivity
 
-- A **MongoDB Atlas** account for database development
+1.  [Python](https://en.wikipedia.org/wiki/Python_(programming_language)) - for backed logic and structure
 
-### How To Access It
+1.  [Jinja](https://jinja.palletsprojects.com/en/2.11.x/) - for displaying backend information in frontend
 
-- In order to run this project locally you should follow these steps:
+1.  [Django](https://www.djangoproject.com/) - high-level Python web framework
 
-1. Click the green *'clone or download'* button in the [GitHub repository](https://github.com/Jammerref2015/watchthisnext) for the project.
+1.  [Heroku](https://www.heroku.com/) - cloud platform where the web app is deployed
 
-2. Copy the link provided by clicking the **clipboard button** to the right of the link.
+1.  [SQLite](https://www.sqlite.org/index.html) - default Django's database used in development
+
+1.  [PostgreSQL](https://www.postgresql.org/) - production database through Heroku
+
+1.  [AWS S3](https://aws.amazon.com/) - for hosting media and static files to the cloud
+
+1.  [Git](https://git-scm.com/) - for version control
+
+1.  [Stripe](https://stripe.com/en-gb-de) - for managing (test) transactions
+
   
-3. In your terminal, type ***git clone***, paste in the previously copied link, and hit return.
+
+[Bootstrap](https://getbootstrap.com/) uses the following components to function properly:
+
   
-4. Create a file called ".flaskenv" and add the following:
 
--  **FLASK_APP=run.py**
--  **FLASK_ENV=development**
+1.  [jQuery](https://jquery.com/)
+
+1.  [Popper.js](https://popper.js.org/)
+
+1.  [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
+
   
-5. Install the required modules with the command **pip -r requirements.txt**.
+
+Additionally, I have also used the following platforms to help me shape the website and the brand:
+
   
-6. If you don't have it yet, create a free account on [MongoDB](https://mongodb.com/) and create a new Database called **Database3**.
+
+1.  [Gitpod](https://gitpod.io/) - for writing, editing, and live to preview the code during the creation process
+
+2.  [GitHub](https://github.com/) - for hosting the project's repository
+
+3.  [TinyJPG](https://tinyjpg.com/)- for compressing the images so that the website can load faster
+
+4.  [Google Fonts](https://fonts.google.com/) - for selecting the fonts
+
+5.  [Favicon](https://favicon.io/) - for creating browser tab icons
+
+6.  [Autoprefixer](https://autoprefixer.github.io/) - for solving cross-browser CSS issues
+7. [Grammarly](https://www.grammarly.com/) - for spell checking and grammar for MD files.
+
   
-7. Then create the following collections in that Database:
--  **movies**
-
-   -  **_id:**< ObjectId >
-   -  **title:**< string >
-   -  **synopsis:**< string >
-   -  **genre:**< string >
-    -  **platform:**< string >
-    -  **rating:**< string >
-    -  **release_year:**< string >
-    -  **age_rating:**< string >
-    -  **movie_image:**< string >
-    -  **created_by:**< string >
-
--  **users**
-    -  **_id:**< ObjectId >
-   - **username:**< string >
-   -  **password:**< string >
-
-  8. You should now be able to run this application locally by typing **flask run**.
   
-### Deployment to Heroku
 
-#### The version hosted on Heroku (live version) is identical to the development version. 
+<div  align="right">
 
+<a  href="#table-of-contents"> ⇧ Back To Top </a>
 
-1. Create a **requirements.txt** file by typing **pip3 freeze --local > requirements.txt** into the terminal line.
+</div>
 
-2. Create a Procfile by typing **echo web: python app.py > Procfile**.
+  
 
-3. Add, commit and push these changes to Github.
+## Testing and Defensive Design
 
-4. Navigate to the [Heroku](https://heroku.com/).
+  
 
-5. Create new app and give it a unique name.
+More about **Testing and Defensive Design** can be found in the [TESTING.md](https://github.com/valentina-b/ecosio-eco-friendly-cosmetics/blob/master/TESTING.md) file.
 
-6. Choose the region that is closest to you.
+  
 
-7. Go to the **Deploy** tab and choose **Github**.
+<div  align="right">
 
-8. Search for the correct repository and connect.
+<a  href="#table-of-contents"> ⇧ Back To Top </a>
 
-9. Go to Heroku **Settings** and navigate to **Config Vars**.
+</div>
 
-10. Set the following:
+  
 
--  **IP = 0.0.0.0**
--  **MONGO_DBNAME = [Name of MongoDB]**
--  **MONGO_URI = mongodb+srv://:@<cluster_name>-qtxun.mongodb.net/<database_name>?retryWrites=true&w=majority**
--  **PORT = 5000**
--  **SECRET_KEY = [Secret key]**
+## Deployment
 
-11. Go to the Deploy tab and **Deploy Branch**, ensuring that the master branch is selected.
+  
+
+darkcastlebrewery was developed with [Gitpod](https://gitpod.io/) IDE. [Git](https://git-scm.com/) was used for version control and [GitHub](https://github.com/) for hosting the project's repository. The project is hosted on [Heroku](https://www.heroku.com/) while [AWS S3](https://aws.amazon.com/) is hosting static files and images.
+
+  
+
+### Local Deployment
+
+  
+
+To run this project locally (on your IDE), make sure you:
+
+* have an IDE of your choice ready (such as [Gitpod](https://gitpod.io/))
+
+* have the following installed:
+
+*  [Git](https://gist.github.com/derhuerst/1b15ff4652a867391f03)
+
+*  [Python3](https://www.python.org/downloads/)
+
+*  [pip](https://pip.pypa.io/en/stable/installing/)
+
+  
+
+Additionally, you will need (free) accounts of the following services:
+
+*  [Gmail](https://www.google.com/gmail/)
+
+*  [Stripe](https://stripe.com/en-gb-de)
+
+*  [AWS S3](https://aws.amazon.com/)
+
+  
+
+**Instructions**
+
+  
+
+1. Clone this repository
+
+* After installing the requirements mentioned earlier, clone the project by pasting the following command into the terminal:
+
+*  `git clone https://github.com/Jammerref2015/Dark-Castle-Brewery1`
+
+* alternatively, you can go to [darkcastlebrewery](https://github.com/Jammerref2015/Dark-Castle-Brewery1), repository then click the green 'Code' button and 'Download ZIP option in the dropdown menu to save the files on your machine, for more information please visit [GitHub's help pages](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository)
+
+  
+
+2. Set up environment variables
+
+* create `.env` file in the root directory
+
+* add `.env` to `.gitignore` file in the root directory
+
+* add the following environment variables to `.env`:
+
+```bash
+
+import os
+
+os.environ["DEVELOPMENT"] = "True"
+
+os.environ["SECRET_KEY"] = "<Your Key>"
+
+os.environ["STRIPE_PUBLIC_KEY"] = "<Your Key>"
+
+os.environ["STRIPE_SECRET_KEY"] = "<Your Key>"
+
+os.environ["STRIPE_WH_SECRET"] = "<Your Key>"
+
+```
+
+* if you're working with GitPod, you can set these variables in the 'Settings'
+
+* click your profile icon in the top right corner in Gitpod
+
+* click 'Open Workspaces'
+
+* again click your profile icon in the top right corner
+
+* click 'Settings' option in the dropdown menu
+
+* click 'Add Variable' button to add a variable
+
+  
+
+3. Install requirements from the `requirements.txt` file
+
+* paste the following command into the terminal:
+
+*  `pip3 install -r requirements.txt`
+
+  
+
+4. Migrate the models to create a database
+
+* paste the following commands into the terminal:
+
+*  `python3 manage.py makemigrations`
+
+*  `python3 manage.py migrate`
+
+  
+
+5. Load the data fixtures in this exact order
+
+* paste the following commands into the terminal:
+
+*  `python3 manage.py loaddata products`
+
+  
+
+6. Create a superuser (user with admin rights)
+
+* paste the following command into the terminal:
+
+*  `python3 manage.py createsuperuser`
+
+* enter an e-mail, username, and password for the superuser
+
+  
+
+7. Run the web app
+
+* paste the following command into the terminal:
+
+*  `python3 manage.py runserver`
+
+  
+
+8. Log into Django admin
+
+* after running the web app, add `/admin` at the end of the URL and log in with the superuser credentials from the previous step
+
+  
+
+### Heroku Deployment
+
+  
+
+1. Create a `requirements.txt` file
+
+* paste the following command into the terminal:
+
+*  `pip freeze > requirements.txt`
+
+  
+
+2. Create a `Procfile`
+
+* create a `Procfile` in the root directory
+
+* add the following code into it:
+
+*  `web: gunicorn ecosio.wsgi:application`
+
+  
+
+3. Push the code to GitHub
+
+* paste the following commands into the terminal:
+
+*  `git add .`
+
+*  `git commit -m "<your commit note>"`
+
+*  `git push`
+
+  
+
+4. Create a new app on Heroku
+
+* create a new app (click on 'New' > 'Create new app')
+
+* give it a unique name
+
+* set region closest to you
+
+  
+
+5. Set Heroku Postgres
+
+* go to 'Resources' tab
+
+* search for 'Heroku Postgres'
+
+* Select the 'Hobby Dev' free plan
+
+  
+
+6. Set config variables in Heroku
+
+  
+
+| **Key** | **Value** |
+
+| --------- | ----------- |
+
+| AWS_ACCESS_KEY_ID | < your AWS access key ID > |
+
+| AWS_SECRET_ACCESS_KEY | < your AWS secret access key > |
+
+| DATABASE_URL | < your postgres database URL > |
+
+| EMAIL_HOST_PASS | < 16-character password from Gmail > |
+
+| EMAIL_HOST_USER | < your Gmail > |
+
+| SECRET_KEY | < your secret key > |
+
+| STRIPE_PUBLIC_KEY | < your stripe public key > |
+
+| STRIPE_SECRET_KEY | < your stripe secret key > |
+
+| STRIPE_WH_SECRET | < your stripe webhook key > |
+
+| USE_AWS | True |
+
+  
+
+7. Set up a new database
+
+* in `settings.py`:
+
+* import dj_database_url
+
+* comment out `DATABASES` (temporarily, **do not commit/push this code to GitHub until instructed so**)
+
+* add the following code:
+
+```bash
+
+DATABASES = {
+
+'default': dj_database_url.parse("<your Postrgres database URL>")
+
+}
+
+```
+
+  
+
+8. Migrate the models to the Postgres database
+
+* paste the following commands into the terminal:
+
+*  `python3 manage.py makemigrations`
+
+*  `python3 manage.py migrate`
+
+  
+
+9. Load the data fixtures in this exact order
+
+* paste the following commands into the terminal:
+
+*  `python3 manage.py loaddata categories`
+
+*  `python3 manage.py loaddata brands`
+
+*  `python3 manage.py loaddata products`
+
+*  `python3 manage.py loaddata blogs`
+
+  
+
+10. Create a superuser (user with admin rights)
+
+* paste the following command into the terminal:
+
+*  `python3 manage.py createsuperuser`
+
+* enter an e-mail, username, and password for the superuser
+
+  
+
+11. Correct the `settings.py` database from step 7.
+
+* uncomment the `DATABASES`
+
+*, remove the code added in step 7.
+
+  
+
+12. Add the hostname of Heroku app to allowed EMAIL_HOST_USER
+
+* in `settings.py`:
+
+* add the following code:
+
+```bash
+
+ALLOWED_HOSTS = ['<your Heroku app URL>', 'localhost]
+
+```
+
+  
+
+13. Push the code to GitHub
+
+* paste the following commands into the terminal:
+
+*  `git add .`
+
+*  `git commit -m "<your commit note>"`
+
+*  `git push`
+
+  
+
+14. Set up automatic deployment to Heroku (**optional**)
+
+* in Heroku go to 'Deploy' > 'Deployment method' > 'Connect to GitHub'
+
+* search for your repository and click on it
+
+* go to 'Automatic Deployment' > click 'Enable Automatic Deploys'
+
+  
+
+15. Test automatic deployment
+
+* your code should be automatically deployed to Heroku after pushing your code
+
+  
+
+### Hosting Files with AWS
+
+  
+
+To host static files and images with AWS, you will need to create an [AWS account](https://aws.amazon.com/).
+
+Additionally, you have to create:
+
+* an AWS S3 Bucket
+
+* a Bucket Policy
+
+* a Group
+
+* an Access Policy
+
+* a User
+
+  
+
+It is a lengthy process but you can learn more about Amazon Simple Storage Service [here](https://docs.aws.amazon.com/AmazonS3/latest/gsg/GetStartedWithS3.html).
+
+After that, you will need to [connect Django to S3](https://django-storages.readthedocs.io/en/latest/backends/amazon-S3.html).
+
+  
+
+### Sending E-mails through Gmail
+
+  
+
+To send automatic e-mails with Django, you need a Gmail account.
+
+* go to the account settings
+
+* go to the 'Other Google Account Settings'
+
+* go to the 'Security' tab
+
+* turn on 2-step verification
+
+* go back to the 'Security' tab and click on 'App passwords'
+
+* select 'Mail' in the app dropdown
+
+* select 'Other' in the device dropdown
+
+* Copy the 16-character password
+
+* go to Heroku and put it under `EMAIL_HOST_PASS` config variable
+
+* put the Gmail e-mail under the `EMAIL_HOST_USER` config var
+
+  
+
+<div  align="right">
+
+<a  href="#table-of-contents"> ⇧ Back To Top </a>
+
+</div>
+
+  
 
 ## Credits
 
-### Code
+  
 
-- 
+### Content
 
-- Select validation used code provided in Code Institute DataBase Mini Project video
+  
 
-- Return to top button uses CSS and JS obtained from [w3schools](https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_scroll_to_top)
+* Product specifications were taken from various sources and adapted to better fit the theme of the products.
 
-- Star rating on forms uses adapted code orginally obtained from [codeconvey](https://codeconvey.com/css-star-rating-radio-buttons/)
+* Textual content for the About page is original, written by myself.
+
+* Shipping and returns information adapted from other sources.
+
+  
+
+### Media
+
+  
+
+* The images for the products were created in photoshop using the following sources:
+
+* Beer bottle and beer can mockups from [Smarty mockups](https://smartymockups.com/).
+
+* Fantasy images are from the [realmsofpugmire](https://www.realmsofpugmire.com/) role-playing game.
+
+* Labels created using label created in [beerlabelizer](https://www.beerlabelizer.com/).
+
+* Social media icons in the header and footer are from [ Font Awesome](https://fontawesome.com/).
+
+* README hero image was taken with the help of [Ami.ResponsiveDesign](http://ami.responsivedesign.is/).
+
+  
+
+### Inspiration Sources
+
+  
+
+* The biggest three inspiration sources were [Supply](https://www.wychwood.co.uk/) , [ [beerofbelgium]](https://www.beerofbelgium.com/en/) and [Brasserie Goudale](http://brasserie-goudale.com/).
+
+* An important part of my design and research was also [Amazon](https://www.amazon.com/).
+
+  * The following page helped me understand [webhooks](https://zapier.com/blog/what-are-webhooks/).
 
  
-### Media 
-- 
 
-- 
+### Acknowledgments
 
+* Thank you [CodeInstitute's](https://codeinstitute.net/) Tutors and Slack community for being there and helping with the many bug-related questions. I look forward to continuing being a member of the Slack community as alumni and hopefully being able to help others as well as being part of the growing band of coders on there!
 
+* A huge thank you to Cat for the detailed feedback as well as the name suggestions for the products.
 
-### Acknowledgements
+* Last but not least, a huge and warm thank you to my mentor [Caleb Mbakwe](https://github.com/caleboau2012)- for being such an incredible source of encouragement and advice on this project but for being there throughout all of my projects and coding journey at CodeInstitute. Thank you for all your support and kind words and for reassuring me when I felt that something wasn't clicking for me. 
 
-- A big thank you to the great tutors at the Code Institute!
+   
 
-- Thanks Caterina O'Brian for helping me come up with names for the beers.
+<div align="right">
 
-- Thanks to my friends and family for endless testing.
+<a href="#table-of-contents"> ⇧ Back To Top </a>
 
-- Big thanks to my mentor for putting up with my questions and giving me great insights.
+</div>
+
+  
 
 > Written with [StackEdit](https://stackedit.io/).
-
-
-
-
-
-
-
-
-
-
-
