@@ -116,47 +116,47 @@ The project's code was frequently validated through:
 
 *  [W3 HTML validator](https://validator.w3.org/)
 
-* the validator found some mistakes that were easy to fix, such as:
+	* The validator found some mistakes that were easy to fix, such as:
 
-* Incorrect `<footer>` tag had <footer">
+	* Incorrect `<footer>` tag had <footer">
 
-* Had some nnecessary type attribute `<script type="text/javascript">`
+	* Had some nnecessary type attribute `<script type="text/javascript">`
 
   
 
-* The following were not fixed due to the pressure of time.
+	* The following were not fixed due to the pressure of time.
 
-*  `<a>`is not allowed as child of element < ul > in this context.
+	*  `<a>`is not allowed as child of element < ul > in this context.
 
-*  `<li>`is not allowed as child of element < nav > in this context x2.
+	*  `<li>`is not allowed as child of element < nav > in this context x2.
 
-* Duplicate **id="user-options"** occurred because of additional implementation of custom widget template code. The pages for this app are built using code from the various apps (cart, products, etc) so there is some overlap which could explain the duplicate id's
+	* Duplicate **id="user-options"** occurred because of additional implementation of custom widget template code. The pages for this app are built using code from the various apps (cart, products, etc) so there is some overlap which could explain the duplicate id's
 
-* A stray `<a>` tag was found.
+	* A stray `<a>` tag was found.
 
-* The **aria-labelledby** attribute must point to an element in the same document.
+	* The **aria-labelledby** attribute must point to an element in the same document.
 
 *  [W3 CSS validator](https://jigsaw.w3.org/css-validator/)
 
-* Base.css was tested. No errors were found.
+	* Base.css was tested. No errors were found.
 
-* Checkout.css was tested. No errors were found.
+	* Checkout.css was tested. No errors were found.
 
 *  [JSHint](https://jshint.com/)
 
-* stripe_elements.js was tested. No errors were found. Two warnings about 'template literal syntax' only available in ES6.
+	* stripe_elements.js was tested. No errors were found. Two warnings about 'template literal syntax' only available in ES6.
 
-* countryfield.js was tested. No errors were found. One warning about 'let' is available in ES6.
+	* countryfield.js was tested. No errors were found. One warning about 'let' is available in ES6.
 
-* The script in quantity_input_script.html was tested. No errors. Three warnings about 'template literal syntax' only available in ES6.
+	* The script in quantity_input_script.html was tested. No errors. Three warnings about 'template literal syntax' only available in ES6.
 
-* Note:1 ('$' was not defined by JSHint however)
+	* Note:1 ('$' was not defined by JSHint however)
 
 *  [PEP8 validator](http://pep8online.com/)
 
-* all Python code was run through the PEP8 validator
+	* All Python code was run through the PEP8 validator
 
-* most of the errors were `line too long`, `blank line contains whitespace`, and `blank line at end of file errors`, which I plan to correct at a later point since this isn't technically an error and this task would be very time-consuming at this point
+	* Most of the errors were `line too long`, `blank line contains whitespace`, and `blank line at end of file errors`, which I plan to correct at a later point since this isn't technically an error and this task would be very time-consuming at this point
 
   
 
