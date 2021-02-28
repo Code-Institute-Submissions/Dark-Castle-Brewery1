@@ -39,8 +39,7 @@ A demo and/or admin credentials available upon request.
 
   
 
-![App Showcase](readme-files/img-intro.png)
-
+![Showcase](https://github.com/Jammerref2015/Dark-Castle-Brewery1/blob/master/readme_files/img-intro.png)
   
 
 ## Table of Contents
@@ -181,7 +180,6 @@ Based on the user stories and UX research, I've created an overview of the most 
 
   
 
-![Features and App Sections Overview](readme-files/img-mvp.png)
 
   
 
@@ -218,12 +216,9 @@ In the next few sections, I will focus more on the most important sections and f
 
 darkcastlebrewery, [a Django project](https://docs.djangoproject.com/en/3.1/ref/applications/), consists of 6 Django applications listed below.
 
-As explained in Django's documentation - a Django application describes a Python package that provides some set of features. Applications may be
-
-reused in various projects.
+As explained in Django's documentation - a Django application describes a Python package that provides some set of features. Applications may be reused in various projects.
 
   
-
 *  `homepage`
 
 * `about``
@@ -250,10 +245,6 @@ Some features I've worked on are available across the Django project, while othe
 
   
 
-![Navigation Feature](readme-files/img-features/img-features-navigation.png)
-
-  
-
 **Search functionality**
 
 * The search box is part of the top navigation and is, therefore, accessible on all pages.
@@ -268,9 +259,6 @@ Some features I've worked on are available across the Django project, while othe
 
   
 
-![Search Feature](readme-files/img-features/img-features-search.png)
-
-  
 
 **Toasts**
 
@@ -284,7 +272,7 @@ Some features I've worked on are available across the Django project, while othe
 
   
 
-![Toasts Features](readme-files/img-features/img-features-toasts.png)
+
 
   
 
@@ -300,9 +288,6 @@ Some features I've worked on are available across the Django project, while othe
 
   
 
-![Django-allauth Features](readme-files/img-features/img-features-allauth.png)
-
-  
 
 **Automatic e-mails**
 
@@ -312,19 +297,13 @@ Some features I've worked on are available across the Django project, while othe
 
   
 
-![Automatic E-mails Features](readme-files/img-features/img-features-automatic-emails.png)
 
-  
 
 **Homepage app**
 
 *  `homepage` Django app brings the customer directly to the store simplifying the process of purchasing products. The store sells one kind of product, the aim was to keep this simple.
 
   
-  
-
-![Homepage Features](readme-files/img-features/img-features-homepage.png)
-
   
 
 **About app**
@@ -337,9 +316,7 @@ Some features I've worked on are available across the Django project, while othe
 
   
 
-![About Page Feature](readme-files/img-features/img-features-about.png)
 
-  
   
 
 **Products app, i.e. Webshop**
@@ -381,7 +358,6 @@ Users can also filter the products based on these tags in the **shop**.
 
   
 
-![Cart Features](readme-files/img-features/img-features-cart.png)
 
   
 
@@ -413,7 +389,6 @@ Users can also filter the products based on these tags in the **shop**.
 
   
 
-![Checkout Features](readme-files/img-features/img-features-checkout.png)
 
   
 
@@ -430,9 +405,7 @@ Users can also filter the products based on these tags in the **shop**.
   
   
 
-![Profiles Features](readme-files/img-features/img-features-profiles.png)
 
-  
 
 ### Features Left to Implement
 
@@ -448,9 +421,7 @@ Working on this project has been an incredible learning experience and I truly w
 
   
 
-![Save for Later Feature](readme-files/img-features-left-to-implement/img-features-save-for-later.png)
 
-  
 
 **Cart keeps items after logging out**
 
@@ -487,36 +458,33 @@ The wireframes linked below are only some that I've made for this project. They 
 
 Desktop wireframes:
 
-*  [homepage / webshop](https://raw.githubusercontent.com/valentina-b/ecosio-eco-friendly-cosmetics/master/readme-files/wireframes/dsk/wireframe-dsk-homepage.png)
+*  [Homepage / webshop](https://github.com/Jammerref2015/Dark-Castle-Brewery1/blob/master/readme_files/wireframes/Desktop%20products.png)
 
-*  [about page](https://raw.githubusercontent.com/valentina-b/ecosio-eco-friendly-cosmetics/master/readme-files/wireframes/dsk/wireframe-dsk-about.png)
+*  [About page](https://github.com/Jammerref2015/Dark-Castle-Brewery1/blob/master/readme_files/wireframes/Desktop%20About%20us.png)
 
-*  [product detail page](https://raw.githubusercontent.com/valentina-b/ecosio-eco-friendly-cosmetics/master/readme-files/wireframes/dsk/wireframe-dsk-product-page.png)
+*  [Product detail page](https://github.com/Jammerref2015/Dark-Castle-Brewery1/blob/master/readme_files/wireframes/Product%20detail%20page.png)
 
-*  [cart](https://raw.githubusercontent.com/valentina-b/ecosio-eco-friendly-cosmetics/master/readme-files/wireframes/dsk/wireframe-dsk-cart.png)
+*  [Cart](https://github.com/Jammerref2015/Dark-Castle-Brewery1/blob/master/readme_files/wireframes/Desktop%20Shopping%20Cart.png)
 
-*  [checkout](https://raw.githubusercontent.com/valentina-b/ecosio-eco-friendly-cosmetics/master/readme-files/wireframes/dsk/wireframe-dsk-checkout.png)
 
-*  [folder with all desktop wireframes](https://github.com/valentina-b/ecosio-eco-friendly-cosmetics/tree/master/readme-files/wireframes/dsk)
 
-  
+*  [Folder with all desktop wireframes](https://github.com/Jammerref2015/Dark-Castle-Brewery1/tree/master/readme_files/wireframes)
 
 
 
 Mobile wireframes:
 
-*  [homepage /webshop](https://raw.githubusercontent.com/valentina-b/ecosio-eco-friendly-cosmetics/master/readme-files/wireframes/mob/wireframe-mob-homepage.png)
+*  [homepage /webshop](https://github.com/Jammerref2015/Dark-Castle-Brewery1/blob/master/readme_files/wireframes/Mobile%20home%20page%202.png)
 
-*  [about page](https://raw.githubusercontent.com/valentina-b/ecosio-eco-friendly-cosmetics/master/readme-files/wireframes/mob/wireframe-mob-about.png)
+*  [about page](https://github.com/Jammerref2015/Dark-Castle-Brewery1/blob/master/readme_files/wireframes/Mobile%20about%20us.png)
 
-*  [product detail page](https://raw.githubusercontent.com/valentina-b/ecosio-eco-friendly-cosmetics/master/readme-files/wireframes/mob/wireframe-mob-product-page.png)
+*  [product detail page]
 
-*  [cart](https://raw.githubusercontent.com/valentina-b/ecosio-eco-friendly-cosmetics/master/readme-files/wireframes/mob/wireframe-mob-cart.png)
+*  [cart](https://github.com/Jammerref2015/Dark-Castle-Brewery1/blob/master/readme_files/wireframes/Mobile%20product%20detail.png)
 
-*  [checkout](https://raw.githubusercontent.com/valentina-b/ecosio-eco-friendly-cosmetics/master/readme-files/wireframes/mob/wireframe-mob-checkout.png)
 
-*  [folder with all mobile wireframes](https://github.com/valentina-b/ecosio-eco-friendly-cosmetics/tree/master/readme-files/wireframes/mob)
 
+*  [Folder with all mobile wireframes](https://github.com/Jammerref2015/Dark-Castle-Brewery1/tree/master/readme_files/wireframes)
   
 
 <div  align="right">
@@ -720,9 +688,7 @@ Red is used on the important shipping and returns the button to enable it to sta
 
   
 
-![Colour Palette](readme-files/img-colour-palette.png)
 
-  
 
 ### Icons
 The icons used in the app are from font awesome and they are used to make it clear as to what their functions are. I.E shopping cart uses a 'cart' icon.
@@ -847,7 +813,7 @@ Additionally, I have also used the following platforms to help me shape the webs
 
   
 
-More about **Testing and Defensive Design** can be found in the [TESTING.md](https://github.com/valentina-b/ecosio-eco-friendly-cosmetics/blob/master/TESTING.md) file.
+More about **Testing and Defensive Design** can be found in the [TESTING.md](https://github.com/Jammerref2015/Dark-Castle-Brewery1/blob/master/TESTING.md)file.
 
   
 
@@ -1015,7 +981,7 @@ os.environ["STRIPE_WH_SECRET"] = "<Your Key>"
 
 * add the following code into it:
 
-*  `web: gunicorn ecosio.wsgi:application`
+*  `web: gunicorn dark_castle.wsgi:application`
 
   
 
