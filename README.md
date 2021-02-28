@@ -5,6 +5,9 @@
 
   
 
+![Showcase](https://github.com/Jammerref2015/Dark-Castle-Brewery1/blob/master/readme_files/img-intro.png)
+  
+
 Code Institute - Final Milestone Project (4) - Full Stack Frameworks With Django
 
  
@@ -37,9 +40,6 @@ Test transaction details:
 
 A demo and/or admin credentials available upon request.
 
-  
-
-![Showcase](https://github.com/Jammerref2015/Dark-Castle-Brewery1/blob/master/readme_files/img-intro.png)
   
 
 ## Table of Contents
@@ -335,9 +335,7 @@ Users can also filter the products based on these tags in the **shop**.
 
   
 
-![Shop Features](readme-files/img-features/img-features-shop.png)
 
-  
 
 **Cart app**
 
@@ -478,7 +476,7 @@ Mobile wireframes:
 
 *  [about page](https://github.com/Jammerref2015/Dark-Castle-Brewery1/blob/master/readme_files/wireframes/Mobile%20about%20us.png)
 
-*  [product detail page]
+*  [product detail page](https://github.com/Jammerref2015/Dark-Castle-Brewery1/blob/master/readme_files/wireframes/Mobile%20product%20detail.png)
 
 *  [cart](https://github.com/Jammerref2015/Dark-Castle-Brewery1/blob/master/readme_files/wireframes/Mobile%20product%20detail.png)
 
@@ -669,7 +667,7 @@ I decided on four product types and each one would need to be very different in 
   
   
 
-![Design Inspirations](readme-files/img-design-inspirations.png)
+
 
   
 
@@ -697,12 +695,10 @@ The icons used in the app are from font awesome and they are used to make it cle
 
 ### Images
 
-  
-  
+ As the products for sale in this store do not exist I had to create them myself in Photoshop using a variety of sources. Each of the different products having a different colour scheme and image style based on the name and the type of beer that would allow them to stand out on the shelves.
+ 
+![Products](https://github.com/Jammerref2015/Dark-Castle-Brewery1/blob/master/readme_files/Cans_multi.jpg)
 
-As the products for sale in this store do not exist I had to create them myself in Photoshop using a variety of sources. Each of the different products having a different colour scheme and image style based on the name and the type of beer that would allow them to stand out on the shelves.
-
-  
 
 ### Visual Style
 
