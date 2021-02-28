@@ -23,18 +23,14 @@ body {
     font-family: Cinzel, Arial, Helvetica, sans-serif;  
 } 
 
+/* Navbar */
+
 .aboutus-address{
     margin-top:1.5%;
 }
 
-#footer-styling {
-    background-color: #FFB400;
-    margin-top: 15%;
-    position: absolute;
-    left: 0;
-    right: 0;
-    width: 100%;
-}
+
+
 
 .card-styling{
     -webkit-box-shadow:
@@ -102,39 +98,17 @@ body {
     width: fit-content;
 }
 
-/*
-.shop-now-button {
-    background: black;
-    color: white;
-    min-width: 260px;
-}
-*/
-
 .btn-black {
     background: black;
     color: white;
 }
 
-
-/* Edit or replace this */ 
 .btn-outline-black{
     background: white;
     color: black !important; /* use important to override link colors for <a> elements. */
     border: 1 px solid black;
 }
 
-
-/*
-.shop-now-button:hover,
-.shop-now-button:active,
-.shop-now-button:focus,
-.btn-black:hover,
-.btn-black:active,
-.btn-black:focus {
-    background: #222;
-    color: white;
-}
-*/
 
 .text-black {
     color: #000 !important;
@@ -145,7 +119,7 @@ body {
 
 }
 
-/* Move and tidy up! */
+
 .message-container {
     position: fixed;
     top: 72px;
@@ -381,10 +355,15 @@ body {
 }
 
 
-
-
-
-
+/* --------------------------------  Footer */ 
+#footer-styling {
+    background-color: #FFB400;
+    margin-top: 15%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+}
 
 
 /* -------------------------------- Media Queries */
